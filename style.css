@@ -1,0 +1,24 @@
+body {
+background:linear-gradient(lightblue,lightyellow);
+}
+.hi{
+font-size:larger;
+font-family:cursive;
+color:yellow;
+background-color: rgb(247, 74, 74);
+animation-name: very;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes very{
+    0%   {background-color:red; margin-left:0px; margin-top:0px;}
+    25%  {background-color:yellow; margin-left:50px; margin-top:50px;}
+    50%  {background-color:blue; margin-left:100px; margin-top:100px;}
+    75%  {background-color:green; margin-left:150px; margin-top:150px;}
+    100% {background-color:red; margin-left:200px; margin-top:200px;}
+}
+#camera{
+width: 400px;
+height:300px;
+border:2px dotted green;
+}
